@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aysoo Photography – Retouch Portfolio</title>
+  <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
+  <style>
+    body { font-family: sans-serif; background:#111; color:#fff; text-align:center; }
+    .container { max-width:900px; margin:50px auto; }
+    h1 { font-weight:400; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Before / After Retouch</h1>
+
+    <div class="juxtapose">
+      <img src="before.jpg" data-label="Before">
+      <img src="after.jpg" data-label="After">
+    </div>
+
+  </div>
+</body>
+</html>
